@@ -29,7 +29,7 @@
                           storageBucket: "edr-assembling-hedom.firebasestorage.app",
                           messagingSenderId: "632117608578",
                           appId: "1:632117608578:web:14f0ca779c8f9b8f5df49b"
-                        };
+                    };
 
                     this.useLocalFallback();
                     this.setupUIBindings(); this.startClock(); this.monitorNetwork();
