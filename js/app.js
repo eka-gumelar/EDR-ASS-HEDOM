@@ -21,15 +21,15 @@
             init: async function() {
                 try {
                     // 1. Ubah nama ini menjadi myRealFirebaseConfig
-                    const myRealFirebaseConfig = {
-                        apiKey: "AIzaSyDfWp9DMuoDDr7M7LIfgQfok8xKmn4yOe0",
-                        authDomain: "edr-assembling.firebaseapp.com",
-                        databaseURL: "https://edr-assembling-default-rtdb.asia-southeast1.firebasedatabase.app",
-                        projectId: "edr-assembling",
-                        storageBucket: "edr-assembling.firebasestorage.app",
-                        messagingSenderId: "156144912420",
-                        appId: "1:156144912420:web:f5c04f476a902dae1c70b1"
-                    };
+                    const firebaseConfig = {
+                          apiKey: "AIzaSyCB7kD9O6JCLxI_mDN7v5XhDXOYZFCxroI",
+                          authDomain: "edr-assembling-hedom.firebaseapp.com",
+                          databaseURL: "https://edr-assembling-hedom-default-rtdb.asia-southeast1.firebasedatabase.app",
+                          projectId: "edr-assembling-hedom",
+                          storageBucket: "edr-assembling-hedom.firebasestorage.app",
+                          messagingSenderId: "632117608578",
+                          appId: "1:632117608578:web:14f0ca779c8f9b8f5df49b"
+                        };
 
                     this.useLocalFallback();
                     this.setupUIBindings(); this.startClock(); this.monitorNetwork();
